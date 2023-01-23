@@ -26,13 +26,9 @@ public class Ejercicio2_2 {
      */
     public static void main(String[] args) {
         
-        Circunferencia c1 = new Circunferencia(1);
+        Menu menu = new Menu();
         
-        CircunferenciaServicio cs = new CircunferenciaServicio();
-        
-        cs.crearCircunferencia(c1);
-        
-        System.out.println("Area: " + cs.area(c1) + ". Perimetro: " + cs.perimetro(c1));
+        menu.menu();
         
     }
     
